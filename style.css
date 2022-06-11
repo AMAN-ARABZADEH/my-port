@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #225c77;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  h1,h3,h2,h4,h5 {
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+  p {
+    line-height: 29px;
+  }
+  /* My picture making it responsive now */
+  .me{
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 20px;
+  }
+
+
+
+
+  /* Contack */
+  main{
+      border-radius: 10px;
+      color: rgb(255, 255, 255);
+      width: 50%;
+      font-size: 16px;
+      text-align: center;
+      transform: translateX(50%);
+      font-family:Arial, Helvetica, sans-serif;
+      font: bold;
+  }
+main address a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  main address a:hover {
+    color: #000;
+    cursor: pointer;
+  }
+  
+  /* End of contact */
+  
+
+  /*  social media */
+
+.social-media {
+    background-color: #12475f;
+    position: relative;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(140, 143, 143);
+    text-align: center;
+    /* height: 100vh;
+    width: 100vw; */
+  }
+  @media screen and (max-width: 800px) {
+    .fab {
+      padding: px;
+      font-size: 10px;
+      text-decoration: none;
+      margin: 10px;
+      border-radius: 50%;
+    }
+    
+  }
+  
+  .fab {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .fab:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-github {
+    background: #b6c0c7;
+    color: white;
+  }
+  
